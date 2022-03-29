@@ -9,7 +9,14 @@ A diligent, highly motivated Front-end Developer who loves to learn and creative
 
 ##  Technical skills
 
-...
+### Languages
+HTML, CSS (SASS/SCSS), JavaScript (ES6), PHP
+
+### Labraries
+jQuery, Zurb Foundation
+
+### Tools
+Gulp, Webpack, Figma, Illustrator, Photoshop, InDesign
 
 ## Code example
 
