@@ -1,1 +1,1 @@
-https://smb1t.github.io/rsschool-cv/cv
+https://smb1t.github.io/rsschool-cv/
