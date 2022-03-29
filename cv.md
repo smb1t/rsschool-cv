@@ -20,7 +20,23 @@ Gulp, Webpack, Figma, Illustrator, Photoshop, InDesign
 
 ## Code example
 
-...
+```
+function imageGlitchEffect() {
+    var g = document.getElementsByClassName('glitch');
+    if (!g.length > 0) return;
+    [].forEach.call(g, function(el) {
+        if (el.children.length > 0) {
+            return;
+        }
+        for (var i = 0; i < 4; i++) {
+            var gi = document.createElement('div');
+            gi.classList.add('glitch__image');
+            gi.setAttribute('data-bgimage', '');
+            el.appendChild(gi);
+        }
+    });
+}
+```
 
 ## Languages
 
