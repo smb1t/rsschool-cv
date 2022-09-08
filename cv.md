@@ -20,7 +20,27 @@ Gulp, Webpack, Figma, Illustrator, Photoshop
 
 ## Code example
 
-...
+```
+Array.prototype.map = function (callback) {
+  if (!(this instanceof Array || this instanceof String)) {
+    throw new TypeError(`Array.prototype.map was called on wrong type.`);
+  }
+
+  if (typeof callback !== "function") {
+    throw new TypeError(
+      `Array.prototype.map ${callback} is not a function.`
+    );
+  }
+
+  const result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    result.push(callback(this[i], i, this));
+  }
+
+  return result;
+};
+```
 
 ## Languages
 
