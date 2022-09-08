@@ -24,4 +24,6 @@ Gulp, Webpack, Figma, Illustrator, Photoshop
 
 ## Languages
 
-...
+Russian: Native
+
+English: A2 Elementary
