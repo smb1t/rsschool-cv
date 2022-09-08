@@ -1,7 +1,7 @@
 # Alexey Goncharov
 *Frontend Developer*
 
-[email](emailaddress) | [github](githublink)
+[email](mailto:alex.g.goncharov@gmail.com) | [github](https://github.com/smb1t)
 
 ## Summary
 
